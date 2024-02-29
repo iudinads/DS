@@ -40,6 +40,6 @@ def correlation(xs : List[float], ys : List[float]) -> float:
 x_arr = [0, 2, 1, 6, 3]
 y_arr = [100, 101, 102, 103, 104]
 
-print(correlation(x_arr, y_arr))  #корркляция от - 1(вообще не зависимы) до +1
+print(correlation(x_arr, y_arr))
 print(covariance([0, 2, 1, 6, 3], [100, 101, 102, 103, 104]))
 
