@@ -14,7 +14,7 @@ plt.xlabel('0 - hrads, 1 - tails')
 plt.ylabel('frequency')
 
 plt.xticks([0,1]) 
-#plt.show()
+plt.show()
 
 results = data['result'].values
 heads = np.sum(results == 0)
