@@ -2,7 +2,6 @@
 
 import pandas as pd
 import matplotlib.pyplot as plt
-from statsmodels.stats.proportion import proportions_ztest
 from scipy import stats
 import numpy as np
 
